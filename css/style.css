@@ -15,7 +15,7 @@ header, footer {
 }
 
 header {
-  font-family: 'Space Mono', monospace;
+  font-family: Work Sans;
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -66,7 +66,7 @@ img {
 .bio {
 color: #ffffff;
 font-size: 24px;
-font-family: 'Space Mono', monospace;
+font-family: 'Work Sans';
 }
 
 .buttonBox {
@@ -128,7 +128,7 @@ font-family: 'Space Mono', monospace;
 }
 
 .description {
-  font-family: 'Space Mono', monospace;
+  font-family: Work Sans;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.29;
