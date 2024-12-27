@@ -9,7 +9,7 @@ body {
 }
 
 header, footer {
-  background-color: #9eb3e1;
+  background-color: #96abd8;
   text-align: left;
   /* min-width: 500px; */
 }
@@ -87,7 +87,8 @@ font-family: 'Space Mono', monospace;
 }
 
 .myButton:hover {
-    background-color:#36076c;
+    background-color:#6e80a9;
+    color: #ffffff;
 }
 
 .myButton:active {
