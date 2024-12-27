@@ -15,7 +15,7 @@ header, footer {
 }
 
 header {
-  font-family: 'Space Mono', monospace;
+  font-family: Helvetica, sans-serif;
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -47,7 +47,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #3b1754;
+  color: #808080;
   padding: 10px 20px 0 20px;
 }
 
@@ -65,8 +65,8 @@ img {
 
 .bio {
 color: #ffffff;
-font-size: 24px;
-font-family: 'Space Mono', monospace;
+font-size: 18px;
+font-family: Helvetica, sans-serif;
 }
 
 .buttonBox {
@@ -102,7 +102,7 @@ font-family: 'Space Mono', monospace;
 }
 
 .description {
-  font-family: 'Space Mono', monospace;
+  font-family: Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.29;
