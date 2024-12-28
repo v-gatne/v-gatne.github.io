@@ -51,10 +51,25 @@ h2 {
   padding: 10px 20px 0 20px;
 }
 
-img {
+/* img {
   width: 100%;
   height: auto;
+} */
+
+.image-box {
+  display: flex; /* Arrange images horizontally */
+  /* justify-content: space-between; Add space between images */
+  align-items: center; /* Align images vertically in the same line */
+  gap: 10px; /* Space between the images */
+  /* padding: 10px 20px; Add some padding around the images */
 }
+
+.image-box img {
+  width: 48%; /* Adjust the width of each image */
+  height: auto; /* Maintain the aspect ratio */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
 
 .wrapper {
   max-width: 1150px;
@@ -129,13 +144,14 @@ footer div {
 
 
 @media all and (max-width:700px) {
-  main {
-    grid-template-columns: 1fr;
+  .image-box {
+    flex-direction: column; /* Stack images vertically on smaller screens */
+    gap: 15px;
   }
-  img {
-    height: 40vh;
+
+  .image-box img {
+    width: 100%; /* Full width for stacked images */
   }
 }
-
 
 
