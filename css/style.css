@@ -70,6 +70,11 @@ h2 {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
 }
 
+project > img {
+  width: 100%; /* Fill the entire width of the project box */
+  height: auto; /* Maintain aspect ratio */
+}
+
 
 .wrapper {
   max-width: 1150px;
