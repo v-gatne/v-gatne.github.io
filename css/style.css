@@ -71,10 +71,9 @@ img {
 
 .image-box {
   display: flex; /* Arrange images horizontally */
-  /* justify-content: space-between; Add space between images */
-  align-items: center; /* Align images vertically in the same line */
+  align-items: center;
+  justify-content: center;
   gap: 10px; /* Space between the images */
-  /* padding: 10px 20px; Add some padding around the images */
 }
 
 .image-box img {
@@ -144,25 +143,38 @@ font-family: Helvetica, sans-serif;
     margin: auto;
   }
 
+footer {
+  height: auto; /* Adjusts dynamically based on content */
+  padding: 10px 20px; /* Adds some space inside the footer */
+  background-color: #96abd8; /* Footer background */
+}
+
 footer div {
-  height: 80px;
+  display: flex;
+  justify-content: flex-start; /* Aligns content to the left */
+  align-items: center; /* Vertically centers content */
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
-  display: flex;
-  align-content: center;
-  padding: 10px 20px;
   color: rgba(255, 255, 255, 0.5);
+}
+
+footer p {
+  margin: 0; /* Removes default margin from <p> */
+  text-align: left; /* Ensures text alignment is left */
 }
 
 
 @media all and (max-width:700px) {
   .image-box {
     flex-direction: column; /* Stack images vertically on smaller screens */
-    gap: 15px;
+    justify-content: center; /* Center images horizontally */
+    align-items: center; /* Center images vertically */
+    gap: 15px; /* Space between stacked images */
   }
 
   .image-box img {
     width: 100%; /* Full width for stacked images */
+    height: auto; /* Maintain aspect ratio */
   }
 }
 
