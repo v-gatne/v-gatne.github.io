@@ -145,7 +145,7 @@ font-family: Helvetica, sans-serif;
 
 footer {
   height: auto; /* Adjusts dynamically based on content */
-  padding: 10px 20px; /* Adds some space inside the footer */
+  padding: 40px 20px; /* Adds some space inside the footer */
   background-color: #96abd8; /* Footer background */
 }
 
