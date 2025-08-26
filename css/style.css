@@ -82,6 +82,11 @@ img {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
 }
 
+/* Target specifically the zon.jpg image to make it bigger */
+img[src*="zon.jpg"] {
+  width: 70% !important;
+}
+
 .wrapper {
   max-width: 1150px;
   margin: auto;
@@ -177,5 +182,3 @@ footer p {
     height: auto; /* Maintain aspect ratio */
   }
 }
-
-
